@@ -19,12 +19,10 @@ program to find the rank of a matrix.
 ```
 ## Developed by: KAMALESH SV
 ## RegisterNumber: 22001133
-
 import numpy as np
 A=np.array([[3,2,5],[1,1,2],[3,3,6]])
 rank=np.linalg.matrix_rank(A)
 print(rank)
-
 ```
 ## Output:
 ![OUTPUT](./OUTPUT134.png)
