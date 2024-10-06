@@ -17,15 +17,17 @@ Finally, print the value of the rank of the matrix.
 program to find the rank of a matrix.
 ## Program:
 ```
-## Developed by: KAMALESH SV
-## RegisterNumber: 22001133
+#Program to find the rank of a matrix.
+#Developed by: MOAHMED FAIZAL M
+#RegisterNumber: 24000006
 import numpy as np
-A=np.array([[3,2,5],[1,1,2],[3,3,6]])
-rank=np.linalg.matrix_rank(A)
-print(rank)
+a = np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+c = np.linalg.matrix_rank(a)
+print(c)
 ```
 ## Output:
-![OUTPUT](./OUTPUT134.png)
+![Screenshot 2024-10-06 182808](https://github.com/user-attachments/assets/fe017155-c719-4f15-bfcc-3a0eabbfd109)
+
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
 
